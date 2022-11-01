@@ -1,0 +1,63 @@
+@import "./_variables.scss";
+@import "bootstrap";
+@import "./_overrides.scss";
+@import "./_utilities.scss";
+@import "./loaders.scss";
+
+header {
+  background-image: url(https://i0.wp.com/cfmsinc.org/wp-content/uploads/2019/11/cropped-1200x280-poppy-jasper-1.png?w=1200&ssl=1);
+  background-position: center;
+  background-size: cover;
+  color: antiquewhite;
+  text-shadow: 1px 1px 3px black;
+}
+
+
+
+.img-text {
+  color: antiquewhite;
+  text-shadow: 1px 1px 3px black;
+  max-width: 80ch;
+}
+
+.links-card {
+  background-color: rgb(201, 201, 201);
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--body-bg);
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea,
+select {
+  &:not(:placeholder-shown) {
+    &:valid {
+      border: 1px solid $success;
+    }
+
+    &:invalid {
+      border: 1px solid $danger;
+    }
+  }
+}
+
+form:invalid button[type="submit"] {
+  filter: grayscale(1);
+  pointer-events: none;
+}
