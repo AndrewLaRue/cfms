@@ -49,7 +49,7 @@
       </div>
     </section>
     <!-- Unique page components -->
-    <section class="col-9 img-text">
+    <section class="col-9 img-text glass">
       <h2 class="py-2">CFMS Home</h2>
       <p>Welcome to the California Federation of Mineralogical Societies website. As a 501(3)(c) non-profit
         organization we
@@ -135,7 +135,7 @@
     <img class="col-8 img-fluid py-2"
       src="https://i0.wp.com/cfmsinc.org/wp-content/uploads/2021/12/CFMS-2022-Executive-Committee.jpg?resize=768%2C614&ssl=1"
       alt="">
-    <div class="col-4 img-text">
+    <div class="col-4 img-text glass">
       <div class="fs-3 text-center">
 
         Our Officers for 2022!
