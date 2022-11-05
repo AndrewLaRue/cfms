@@ -1,7 +1,7 @@
 <template>
   <header class="container-fluid">
     <div class="row align-items-center" title="Home">
-      <img class="col-3 py-2 img-fluid" src="src\assets\img\cfms_logo.png" alt="">
+      <img class="col-3 py-3 img-fluid" src="src\assets\img\cfms_logo.png" alt="">
       <h1 class="col-9">CFMS -<br> California Federation of Mineralogical Societies
         <br>
         <span class="fs-4">California Lapidary and Rockhounding Clubs</span>
@@ -9,6 +9,7 @@
     </div>
   </header>
   <main class="container-fluid">
+    <MyNav />
     <router-view />
   </main>
   <footer class=" container-fluid text-center bg-dark">
